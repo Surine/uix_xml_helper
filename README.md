@@ -13,6 +13,10 @@
 是给Uix这个库用的，Uix还没写完……
 
 # 效果 buling~
+
+生成界面
 ![WechatIMG22.png](https://i.loli.net/2019/12/13/vPrGnuz3VIqcMkZ.png)
+
+生成成功
 ![WechatIMG23.png](https://i.loli.net/2019/12/13/JPcin5r4dl81QbI.png)
 
