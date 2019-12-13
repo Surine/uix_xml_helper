@@ -44,7 +44,7 @@ public class FormAction extends AnAction {
             String input = Outputs.getOutPutString((AttrItems[]) obj);
             Runnable runnable = () -> document.insertString(offset, input);
             WriteCommandAction.runWriteCommandAction(project, runnable);
-            if (TextUtils.isEmpty(input)) {
+            if (!TextUtils.isEmpty(input)) {
                 Notifications.showNotification(e, "uix_xml_helper", "提示", "属性添加成功！");
             }
         });
