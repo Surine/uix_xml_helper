@@ -11,6 +11,7 @@ import com.intellij.openapi.project.Project;
 import main.entities.AttrItems;
 import main.utils.Notifications;
 import main.utils.Outputs;
+import org.apache.http.util.TextUtils;
 
 public class FormAction extends AnAction {
 
@@ -26,7 +27,7 @@ public class FormAction extends AnAction {
         //文档操作
         Document document = mEditor.getDocument();
         //获取光标位置
-        CaretModel caretModel=mEditor.getCaretModel();
+        CaretModel caretModel = mEditor.getCaretModel();
         int offset = caretModel.getOffset();
 
 //        获取选中字段
@@ -39,10 +40,13 @@ public class FormAction extends AnAction {
 //        if (TextUtils.isEmpty(selectedText)) {
 //            return;
 //        }
-        AttrListDialog attrListDialog= new AttrListDialog(obj -> {
-            Runnable runnable = () -> document.insertString(offset, Outputs.getOutPutString((AttrItems[]) obj));
+        AttrListDialog attrListDialog = new AttrListDialog(obj -> {
+            String input = Outputs.getOutPutString((AttrItems[]) obj);
+            Runnable runnable = () -> document.insertString(offset, input);
             WriteCommandAction.runWriteCommandAction(project, runnable);
-            Notifications.showNotification(e,"1","提示","属性添加成功！");
+            if (TextUtils.isEmpty(input)) {
+                Notifications.showNotification(e, "uix_xml_helper", "提示", "属性添加成功！");
+            }
         });
         attrListDialog.pack();
         attrListDialog.setVisible(true);

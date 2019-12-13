@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82402aa0-74d0-4412-9fe8-559542ace5b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/uix_xml_helper/FormAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/uix_xml_helper/FormAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/uix_xml_helper/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/uix_xml_helper/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AttrListDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AttrListDialog.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AttrListDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AttrListDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FormAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FormAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/MyTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/adapter/MyTableModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/AttrItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/entities/AttrItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/Call.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/AndroidUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/AndroidUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Checks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/Checks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Notifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/Notifications.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Outputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/Outputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/PluginUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/PluginUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/UiUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/UiUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/FormAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FormAction.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +152,14 @@
       <workItem from="1576207024579" duration="272000" />
       <workItem from="1576208055362" duration="1596000" />
     </task>
+    <task id="LOCAL-00001" summary="[Fix] 修复了插件在android studio上报的安全错误">
+      <created>1576218931850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576218931852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,5 +177,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Fix] 修复了插件在android studio上报的安全错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] 修复了插件在android studio上报的安全错误" />
   </component>
 </project>
