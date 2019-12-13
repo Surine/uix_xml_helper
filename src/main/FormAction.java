@@ -1,3 +1,5 @@
+package main;
+
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.PlatformDataKeys;
@@ -6,9 +8,9 @@ import com.intellij.openapi.editor.CaretModel;
 import com.intellij.openapi.editor.Document;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.project.Project;
-import entities.AttrItems;
-import utils.Notifications;
-import utils.Outputs;
+import main.entities.AttrItems;
+import main.utils.Notifications;
+import main.utils.Outputs;
 
 public class FormAction extends AnAction {
 
@@ -37,8 +39,7 @@ public class FormAction extends AnAction {
 //        if (TextUtils.isEmpty(selectedText)) {
 //            return;
 //        }
-
-        AttrListDialog  attrListDialog= new AttrListDialog(obj -> {
+        AttrListDialog attrListDialog= new AttrListDialog(obj -> {
             Runnable runnable = () -> document.insertString(offset, Outputs.getOutPutString((AttrItems[]) obj));
             WriteCommandAction.runWriteCommandAction(project, runnable);
             Notifications.showNotification(e,"1","提示","属性添加成功！");

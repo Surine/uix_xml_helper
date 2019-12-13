@@ -1,4 +1,4 @@
-package utils;
+package main.utils;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.LocalFileSystem;

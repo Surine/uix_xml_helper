@@ -1,4 +1,4 @@
-package entities;
+package main.entities;
 
 public class AttrItems {
     public String name;

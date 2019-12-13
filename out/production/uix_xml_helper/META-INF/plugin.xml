@@ -30,7 +30,7 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="UIX_FormAction" class="FormAction" text="Fill UIX Attrs"
+    <action id="UIX_FormAction" class="main.FormAction" text="Fill UIX Attrs"
             description="fill the attrs by a beautiful way">
       <add-to-group group-id="GenerateGroup" anchor="last"/>
     </action>

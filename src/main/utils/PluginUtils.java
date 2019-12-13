@@ -1,4 +1,4 @@
-package utils;
+package main.utils;
 
 import com.intellij.psi.PsiClass;
 import com.intellij.psi.PsiElement;

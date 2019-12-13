@@ -1,11 +1,9 @@
-import adapter.MyTableModel;
-import com.intellij.openapi.actionSystem.AnActionEvent;
-import com.intellij.openapi.command.WriteCommandAction;
-import com.intellij.openapi.editor.Document;
-import com.intellij.openapi.project.Project;
+package main;
+
+import main.adapter.MyTableModel;
 import com.intellij.ui.components.JBScrollPane;
 import com.intellij.ui.table.JBTable;
-import interfaces.Call;
+import main.interfaces.Call;
 
 import javax.swing.*;
 import java.awt.*;

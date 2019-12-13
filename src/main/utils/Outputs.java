@@ -1,6 +1,6 @@
-package utils;
+package main.utils;
 
-import entities.AttrItems;
+import main.entities.AttrItems;
 import org.apache.http.util.TextUtils;
 
 public class Outputs {

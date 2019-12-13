@@ -1,4 +1,4 @@
-app:color="#fff"<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -74,6 +74,7 @@ app:color="#fff"<?xml version="1.0" encoding="utf-8"?>
         app:layout_constraintTop_toBottomOf="@id/seekbar" />
 
     <TextView
+		app:radius="20dp"
 		app:shape="RECTANGLE"
 		app:color="#FFF"
 		app:pressColor="#DDD"

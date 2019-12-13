@@ -1,6 +1,6 @@
-package adapter;
+package main.adapter;
 
-import entities.AttrItems;
+import main.entities.AttrItems;
 
 import javax.swing.table.AbstractTableModel;
 

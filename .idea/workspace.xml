@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82402aa0-74d0-4412-9fe8-559542ace5b8" name="Default Changelist" comment="" />
+    <list default="true" id="82402aa0-74d0-4412-9fe8-559542ace5b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/uix_xml_helper/FormAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/uix_xml_helper/FormAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/uix_xml_helper/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/uix_xml_helper/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AttrListDialog.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AttrListDialog.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AttrListDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AttrListDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FormAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/MyTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/adapter/MyTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/AttrItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/entities/AttrItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/interfaces/Call.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/AndroidUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/AndroidUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Checks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/Checks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Notifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/Notifications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Outputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/Outputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/PluginUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/PluginUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/UiUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils/UiUtils.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +54,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -46,7 +68,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1UsRl9lJfhoSXitpjomYDk3ZvW9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -55,6 +79,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -142,10 +167,24 @@
       <workItem from="1576168286279" duration="671000" />
       <workItem from="1576204460834" duration="207000" />
       <workItem from="1576207024579" duration="272000" />
+      <workItem from="1576208055362" duration="1596000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
